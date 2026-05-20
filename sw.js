@@ -1,5 +1,5 @@
 // ════════════════════════════════════════════════════════════════════════════
-// Jel' vakat? by Divan — Service Worker
+// Jel’ vakat? by Divan — Service Worker
 // ────────────────────────────────────────────────────────────────────────────
 // Strategija:
 //   - App shell (HTML/manifest/ikone): network-first sa fallback na cache
@@ -13,7 +13,7 @@
 // Verzija keša se mijenja sa svakom novom verzijom app-a. Stari keš se briše.
 // ════════════════════════════════════════════════════════════════════════════
 
-const CACHE_VERSION = 'mn-v2.27.74';
+const CACHE_VERSION = 'mn-v2.27.75';
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
